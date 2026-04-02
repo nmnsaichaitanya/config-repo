@@ -3,7 +3,7 @@ spring:
     name: order-service
   datasource:
     url: jdbc:h2:mem:order_master
-    driverClassName: com.h2.Driver
+    driverClassName: org.h2.Driver
   jpa:
     hibernate:
       ddl-auto: none
